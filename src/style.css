@@ -26,6 +26,7 @@ li {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background-color: #c1e6df;
 }
 .weather-app {
   padding: 20px;
@@ -82,3 +83,4 @@ li {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
