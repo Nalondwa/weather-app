@@ -83,4 +83,11 @@ li {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+.weather-temperature.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
 
+.weather-temperature.active:hoover {
+  text-decoration: none;
+}
