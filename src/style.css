@@ -1,9 +1,9 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
-  color: #24564e;
+  color: #086974;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -18,15 +18,22 @@ li {
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  color: rgb(135, 135, 135);
+  color: rgba(1, 7, 14, 0.815);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #086974;
+  --bs-btn-border-color: #086974;
+  --bs-btn-hover-bg: #6e9ca1;
+  --bs-btn-hover-border-color: #030911;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
-  background-color: #c1e6df;
+  background-color: #edf5f5;
 }
 .weather-app {
   padding: 20px;
